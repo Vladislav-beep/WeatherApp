@@ -96,6 +96,12 @@
                             <constraint firstItem="H2x-lu-TWc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pFJ-JP-X8k"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="cityNameLabel" destination="tYs-QO-cD3" id="6bA-C9-1dp"/>
+                        <outlet property="feelsLikeLabel" destination="jhO-w8-hhB" id="aOi-Jx-Gbt"/>
+                        <outlet property="temperatureLabel" destination="8IN-o4-ryg" id="niU-Rr-JS2"/>
+                        <outlet property="weatherImage" destination="biy-ke-vNe" id="10S-j3-4y0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
