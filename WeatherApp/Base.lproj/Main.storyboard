@@ -83,6 +83,9 @@
                                             <constraint firstAttribute="width" constant="50" id="ueE-JK-1eA"/>
                                         </constraints>
                                         <state key="normal" backgroundImage="magnifyingglass.circle.fill" catalog="system"/>
+                                        <connections>
+                                            <action selector="searcCity:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HWn-Jm-a7b"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
